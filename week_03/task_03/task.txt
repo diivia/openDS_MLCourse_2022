@@ -1,0 +1,37 @@
+На вход поступает два текстовый файл из 3-х тысяч строк каждый.
+
+    Первый файл содержит строки текста.
+
+    Второй файл содержит строки из двух целых неотрицательных чисел.
+    Первое число в строке всегда меньше или равно второму.
+    Числа всегда меньше длины соответствующей строки первого файла.
+    Соответствующей - это значит 1-ая строка из 1-го файла соответствует 1-ой строке из 2-го файла, а 123-я строка из 1-го файла соответствует 123-ей строке из 2-го файла.
+
+    Подготовить выходной файл, который состоит из подстрок 1-го входного файла.
+    Подстроки разделены пробелами.
+    Какие брать подстроки - написано во втором файле.
+    В конце файла пробела нет.
+
+Например:
+
+    120 строка в 1-ом файле: JBOljrfkrfjgikenfjerkrkvkfKUGlknc
+    120 строка во 2-ом файле: 13 27
+Это значит 120 подстрока в результирующем файле это символы с 13 по 27, включая 13-ый и 27-ой символы.
+Не забывайте, что нумерация символов в строке с 0.
+Пример требуемой подстроки: kenfjerkrkvkfKU
+
+    Пример 1-го входного файла:
+
+QxBpXEeyDWHiuTttWjhFMGTlrCMqpSvrNOQoxUbyiZombbLaYqBHvydPJlvdspwwpgeLNlHMVYrZvPsQkcQgPpierYSahialdXlde
+rNsZEKdYYlKKRrYGNWEXTYXOpQqrdGANRfoyeVvRwLVhZDfzKhFQkuSYODIXFLYafnXbxuwqZKQKjSiFZAtSponvmulcjicIDhNaQ
+TttSFLqbNkHvOeHSKTTGEEGxwtXImLeCmcKjvsIkIIvvlsUSazNuEsdDYlOljweSubVJxHbSJkBpByFiUCFctgrLKhlYgEWWuDYqx
+
+    Пример 2-го входного файла:
+
+30 84
+5 79
+70 70
+
+    Пример выходного файла:
+
+vrNOQoxUbyiZombbLaYqBHvydPJlvdspwwpgeLNlHMVYrZvPsQkcQgP KdYYlKKRrYGNWEXTYXOpQqrdGANRfoyeVvRwLVhZDfzKhFQkuSYODIXFLYafnXbxuwqZKQKjSiF b
